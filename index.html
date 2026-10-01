@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chronos — Watches Built for Motion</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="hero" id="top">
+  <!-- LIGHT HALF -->
+  <div class="hero-half light">
+    <div class="blob"></div>
+    <div class="hero-nav">
+      <span class="brand">Chronos</span>
+      <a href="#collection">Store</a>
+      <a href="#collection">Shop</a>
+      <a href="#collection">Collection</a>
+    </div>
+    <a href="#collection" class="side-tab left">Catalog</a>
+    <div class="label-row top-left"><span>Chronos</span><span class="rule"></span></div>
+    <div class="label-row bottom-left"><span>Bold</span><span class="rule"></span></div>
+  </div>
+
+  <!-- DARK HALF -->
+  <div class="hero-half dark">
+    <div class="hero-nav right">
+      <a href="#cart">Cart</a>
+      <a href="#login">Login/Register</a>
+      <a href="#profile">Profile</a>
+    </div>
+    <a href="#specs" class="side-tab right">Specs</a>
+    <div class="label-row top-right"><span>Watches</span><span class="rule"></span></div>
+    <div class="label-row bottom-right"><span>Modern</span><span class="rule"></span></div>
+  </div>
+
+  <!-- CENTER: word + orbit + watch + CTA -->
+  <div class="hero-center">
+    <span class="word left-word display">CHR</span>
+    <span class="word right-word display">NOS</span>
+  </div>
+
+  <div class="orbit" aria-hidden="true">
+    <svg viewBox="0 0 200 200">
+      <defs>
+        <linearGradient id="purpleGrad" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#B39BFF"/>
+          <stop offset="100%" stop-color="#6C4CE0"/>
+        </linearGradient>
+      </defs>
+      <circle cx="100" cy="100" r="88" fill="none" stroke="url(#purpleGrad)" stroke-width="26" stroke-dasharray="300 260" stroke-linecap="round" transform="rotate(-40 100 100)"/>
+    </svg>
+  </div>
+
+  <svg class="watch" viewBox="0 0 200 240" aria-hidden="true">
+    <rect x="70" y="0" width="60" height="34" rx="6" fill="#1B1C22"/>
+    <rect x="70" y="206" width="60" height="34" rx="6" fill="#1B1C22"/>
+    <circle cx="100" cy="120" r="78" fill="#1E1F26" stroke="#33343D" stroke-width="4"/>
+    <circle cx="100" cy="120" r="62" fill="#2A2B33"/>
+    <circle cx="100" cy="120" r="60" fill="none" stroke="#B39BFF" stroke-width="1.5" opacity="0.5"/>
+    <circle cx="78" cy="132" r="12" fill="#1E1F26" stroke="#44454F" stroke-width="1.5"/>
+    <circle cx="122" cy="132" r="12" fill="#1E1F26" stroke="#44454F" stroke-width="1.5"/>
+    <circle cx="100" cy="100" r="10" fill="#1E1F26" stroke="#44454F" stroke-width="1.5"/>
+    <line x1="100" y1="120" x2="100" y2="82" stroke="#F1F1F3" stroke-width="3" stroke-linecap="round"/>
+    <line x1="100" y1="120" x2="128" y2="132" stroke="#B39BFF" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="100" cy="120" r="4" fill="#F1F1F3"/>
+    <rect x="30" y="6" width="10" height="14" rx="2" fill="#1B1C22"/>
+    <rect x="160" y="6" width="10" height="14" rx="2" fill="#1B1C22"/>
+  </svg>
+
+  <a href="#collection" class="explore-btn">EXPLORE MORE</a>
+</div>
+
+<!-- ================= COLLECTION ================= -->
+<section class="section" id="collection">
+  <div class="section-head">
+    <span class="eyebrow">The Collection</span>
+    <h2 class="display">Built for motion, made to last</h2>
+    <p>Three faces for three different days — every Chronos watch ships with a two-year movement warranty.</p>
+  </div>
+  <div class="collection-grid">
+    <div class="product-card">
+      <div class="product-face">
+        <svg viewBox="0 0 120 120" aria-hidden="true">
+          <circle cx="60" cy="60" r="52" fill="#22232B" stroke="#3A3B46" stroke-width="2"/>
+          <circle cx="60" cy="60" r="52" fill="none" stroke="#B39BFF" stroke-width="1" opacity="0.5"/>
+          <g stroke="#7B7C88" stroke-width="1.4">
+            <line x1="60" y1="14" x2="60" y2="22"/>
+            <line x1="60" y1="98" x2="60" y2="106"/>
+            <line x1="14" y1="60" x2="22" y2="60"/>
+            <line x1="98" y1="60" x2="106" y2="60"/>
+          </g>
+          <text x="60" y="34" text-anchor="middle" fill="#8B8C99" font-size="7" font-family="Inter, sans-serif" letter-spacing="1">FIELD</text>
+          <line x1="60" y1="60" x2="60" y2="34" stroke="#F1F1F3" stroke-width="2.5" stroke-linecap="round"/>
+          <line x1="60" y1="60" x2="82" y2="70" stroke="#B39BFF" stroke-width="2.5" stroke-linecap="round"/>
+          <circle cx="60" cy="60" r="3.5" fill="#F1F1F3"/>
+        </svg>
+      </div>
+      <h3 class="display">Chronos Field</h3>
+      <div class="price">$249</div>
+      <a href="#cart" class="add-btn">Add to cart</a>
+    </div>
+    <div class="product-card">
+      <div class="product-face">
+        <svg viewBox="0 0 120 120" aria-hidden="true">
+          <circle cx="60" cy="60" r="54" fill="#1B3550" stroke="#2C4E70" stroke-width="3"/>
+          <circle cx="60" cy="60" r="42" fill="#12222F"/>
+          <circle cx="60" cy="60" r="42" fill="none" stroke="#7FD4E8" stroke-width="1.4" opacity="0.7"/>
+          <g fill="#7FD4E8">
+            <circle cx="60" cy="20" r="2"/>
+            <circle cx="60" cy="100" r="2"/>
+            <circle cx="20" cy="60" r="2"/>
+            <circle cx="100" cy="60" r="2"/>
+          </g>
+          <line x1="60" y1="60" x2="60" y2="30" stroke="#F1F1F3" stroke-width="2.5" stroke-linecap="round"/>
+          <line x1="60" y1="60" x2="76" y2="76" stroke="#7FD4E8" stroke-width="2.5" stroke-linecap="round"/>
+          <circle cx="60" cy="60" r="3.5" fill="#F1F1F3"/>
+        </svg>
+      </div>
+      <h3 class="display">Chronos Dive</h3>
+      <div class="price">$319</div>
+      <a href="#cart" class="add-btn">Add to cart</a>
+    </div>
+    <div class="product-card">
+      <div class="product-face">
+        <svg viewBox="0 0 120 120" aria-hidden="true">
+          <circle cx="60" cy="60" r="52" fill="#241418" stroke="#3E2429" stroke-width="2"/>
+          <circle cx="34" cy="60" r="13" fill="#1A0E11" stroke="#B0505E" stroke-width="1.2"/>
+          <circle cx="86" cy="60" r="13" fill="#1A0E11" stroke="#B0505E" stroke-width="1.2"/>
+          <circle cx="60" cy="60" r="16" fill="#1A0E11" stroke="#B0505E" stroke-width="1.2"/>
+          <line x1="34" y1="60" x2="34" y2="52" stroke="#E4808E" stroke-width="1.3"/>
+          <line x1="86" y1="60" x2="88" y2="54" stroke="#E4808E" stroke-width="1.3"/>
+          <line x1="60" y1="60" x2="60" y2="40" stroke="#F1F1F3" stroke-width="2.5" stroke-linecap="round"/>
+          <line x1="60" y1="60" x2="76" y2="68" stroke="#E4808E" stroke-width="2.5" stroke-linecap="round"/>
+          <circle cx="60" cy="60" r="3" fill="#F1F1F3"/>
+        </svg>
+      </div>
+      <h3 class="display">Chronos Racer</h3>
+      <div class="price">$289</div>
+      <a href="#cart" class="add-btn">Add to cart</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SPECS ================= -->
+<div class="specs-wrap" id="specs">
+  <section class="section">
+    <div class="section-head">
+      <span class="eyebrow" style="color:#B39BFF;">Under the Case</span>
+      <h2 class="display">Specs that matter</h2>
+      <p>No filler numbers — just what tells you if it survives your week.</p>
+    </div>
+    <div class="specs-grid">
+      <div class="spec-item"><div class="num display">100M</div><span>Water resistance</span></div>
+      <div class="spec-item"><div class="num display">42mm</div><span>Case diameter</span></div>
+      <div class="spec-item"><div class="num display">72h</div><span>Power reserve</span></div>
+      <div class="spec-item"><div class="num display">2yr</div><span>Movement warranty</span></div>
+    </div>
+  </section>
+</div>
+
+<footer>
+  <span>Copyright © 2026 Chronos Watches. All rights reserved.</span>
+  <div class="socials">
+    <a href="#">Facebook</a>
+    <a href="#">Instagram</a>
+    <a href="#">Twitter</a>
+  </div>
+</footer>
+
+<!-- ============ CSS-only overlays (no JS) ============ -->
+<div class="overlay" id="cart">
+  <div class="overlay-card">
+    <a href="#top" class="overlay-close" aria-label="Close">&times;</a>
+    <h3 class="display">Your cart</h3>
+    <p>Nothing in here yet — add a watch from the collection.</p>
+    <div class="cart-line"><span>Chronos Field</span><span>$249</span></div>
+    <div class="cart-line"><span>Shipping</span><span>Free</span></div>
+    <a href="#top" class="overlay-submit" style="display:block; text-align:center; margin-top:18px;">Checkout</a>
+  </div>
+</div>
+
+<div class="overlay" id="login">
+  <div class="overlay-card">
+    <a href="#top" class="overlay-close" aria-label="Close">&times;</a>
+    <h3 class="display">Welcome back</h3>
+    <p>Log in to track orders and save your favorite pieces.</p>
+    <form class="overlay-form" onsubmit="return false;">
+      <input type="email" placeholder="Email address">
+      <input type="password" placeholder="Password">
+      <button type="submit" class="overlay-submit">Log in</button>
+    </form>
+  </div>
+</div>
+
+<div class="overlay" id="profile">
+  <div class="overlay-card">
+    <a href="#top" class="overlay-close" aria-label="Close">&times;</a>
+    <h3 class="display">Your profile</h3>
+    <p>Sign in first — once logged in, your orders and details show up here.</p>
+    <a href="#login" class="overlay-submit" style="display:block; text-align:center;">Go to login</a>
+  </div>
+</div>
+
+</body>
+</html>
